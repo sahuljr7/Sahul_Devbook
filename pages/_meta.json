@@ -1,0 +1,90 @@
+{
+  "index": {
+    "title": "Home",
+    "type": "page",
+    "display": "hidden"
+  },
+  "fruits": "Delicious Fruits",
+  "about": 
+  {
+    "title": "About",
+    "display": "hidden",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "sahul": {
+    "title": "Sahul Kumar Parida",
+    "display": "hidden"
+  },
+  "frameworks": {
+    "title": "Frameworks",
+    "type": "page"
+  },
+  "blog": {
+    "type": "page",
+    "title": "Blog",
+    "theme": {
+      "sidebar": false,
+      "toc": true,
+      "breadcrumb": false,
+      "typesetting": "article"
+    }
+  },
+  "connect": {
+    "title": "Contact↗",
+    "type": "page",
+    "href": "https://example.com/contact",
+    "newWindow": true
+  },
+  "---": {
+    "type": "separator"
+  },
+  "company": {
+    "title": "Company",
+    "type": "menu",
+    "items": {
+      "about": {
+        "title": "About Company",
+        "href": "/about"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "href": "mailto:hi@example.com"
+      }
+    }
+  },
+  "404": {
+    "type": "page",
+    "theme": {
+      "timestamp": false,
+      "typesetting": "article"
+    }
+  },
+  "500": {
+    "type": "page",
+    "theme": {
+      "timestamp": false,
+      "typesetting": "article"
+    }
+  },
+  "docs": {
+    "type": "page",
+    "title": "Documentation"
+  },
+  "coding": {
+    "type": "page",
+    "title": "Coding",
+    "theme": {
+      "layout": "full"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "type": "page"
+  },
+  "news": {
+    "type": "page",
+    "title": "News"
+  }
+}

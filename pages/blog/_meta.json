@@ -1,0 +1,14 @@
+{
+  "blog1": {
+    "title": "Demystifying Blockchain: A Primer",
+    "theme": {
+      "breadcrumb": true
+    }
+  },
+  "blog2": {
+    "title": "Unlocking the Power of Cloud Computing: A Comprehensive Guide",
+    "theme": {
+      "breadcrumb": true
+    }
+  }
+}

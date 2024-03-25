@@ -1,0 +1,44 @@
+---
+title: FAQs
+authors: ['Necoline', 'Obinna']
+---
+
+import { Tabs, WrapContent } from '../components/Tabs'
+import { Callout } from 'nextra-theme-docs'
+
+# FAQ
+
+<Tabs tabs={["Web", "VS Code", "iOS"]}>
+    <WrapContent>
+      ## Which languages and frameworks are supported?
+
+[Devboxes](/learn/devboxes/overview) and [Repositories](/learn/repositories/overview) work with anything that can run in Docker. They provide the best experience for JavaScript (including TypeScript), frontend and full-stack, and officially support (with built-in LSP/IntelliSense) Rust, Go, Python, PHP, Ruby on Rails, Elixir, Node and Deno (more languages coming soon).
+
+[Sandboxes](/learn/sandboxes/editor-features) are more limited. They support JavaScript/TypeScript projects, as well as Node.js.
+
+[Create a Sandbox or Devbox from a template](https://codesandbox.io/new/), or read more
+about the
+[difference between Sandboxes and Devboxes](/learn/devboxes/overview#difference-between-devboxes--sandboxes).
+
+    </WrapContent>
+
+
+    <WrapContent>
+       ## What to do about that recurring trust modal?
+
+![Trust Modal](./learn/images/vscode-trust.jpg)
+
+This modal shows up every time you launch a project folder in a new container. Since every branch will be opened with a unique SSH URL, VS Code will ask you to verify that you trust the connection. This is an important security notice to ensure that the user understands the connection being established before opening the code. You can read more about the modal on the [VS Code blog](https://code.visualstudio.com/blogs/2021/07/06/workspace-trust).
+
+    </WrapContent>
+
+    <WrapContent>
+### What is the current state of CodeSandbox for iOS?
+CodeSandbox for iOS support and maintenance is currently suspended.
+
+CodeSandbox is currently unable to update the iOS experience at the rate required to keep up with the changes happening on the web editor. As a result, we have decided to discontinue support for the iOS app until we are able to provide an experience on par with the web editor. This does not remove the app from your device or prevent you from opening it if you already have it installed.
+
+We will make a further announcement about the future of CodeSandbox for iOS by July 2024.
+</WrapContent>
+
+</Tabs>
