@@ -16,8 +16,8 @@
     "title": "Sahul Kumar Parida",
     "display": "hidden"
   },
-  "frameworks": {
-    "title": "Frameworks",
+  "roadmap": {
+    "title": "Roadmap",
     "type": "page"
   },
   "blog": {
@@ -82,8 +82,8 @@
     "title": "FAQ",
     "type": "page"
   },
-  "news": {
+  "dsa": {
     "type": "page",
-    "title": "News"
+    "title": "DSA"
   }
 }

@@ -1,0 +1,49 @@
+## Hash Tables
+
+Hash tables, also known as hash maps or dictionaries, are data structures that store key-value pairs. They use a hashing function to map keys to indices in an array, allowing for fast retrieval and insertion of elements. Hash tables are widely used in computer science and programming for implementing associative arrays, symbol tables, and caching mechanisms. Let's explore the concepts related to hash tables:
+
+### 1. Introduction
+
+A hash table is a collection of key-value pairs, where each key is unique. It employs a hashing function to compute an index (hash) for each key, enabling constant-time access to values based on their keys.
+
+### 2. Hashing Function
+
+A hashing function takes an input (key) and generates a fixed-size output (hash value). The hashing function should distribute keys uniformly across the hash table to minimize collisions.
+
+### 3. Collision Resolution
+
+Collision occurs when two different keys hash to the same index. Hash tables employ various collision resolution techniques, including:
+
+- **Chaining:** Each bucket in the hash table stores a linked list of key-value pairs that hash to the same index.
+- **Open Addressing:** In case of collision, the algorithm probes for an alternative location to store the key-value pair.
+
+### 4. Operations on Hash Tables
+
+#### a. Insertion
+
+Inserting a key-value pair involves computing the hash of the key and storing the pair at the corresponding index in the hash table.
+
+#### b. Retrieval
+
+Retrieving the value associated with a key entails computing the hash of the key and accessing the value stored at the corresponding index in the hash table.
+
+#### c. Deletion
+
+Deleting a key-value pair involves computing the hash of the key, locating the pair in the hash table, and removing it.
+
+### 5. Time Complexity
+
+Hash tables offer average-case constant-time complexity (O(1)) for insertion, retrieval, and deletion operations. However, worst-case complexity may degrade to O(n) if collisions are not handled efficiently.
+
+### 6. Applications
+
+Hash tables find applications in various scenarios, including:
+
+- **Symbol Tables:** Storing identifiers and their associated information in compilers and interpreters.
+- **Databases:** Implementing indexing structures for fast query processing.
+- **Caching:** Storing frequently accessed data to reduce access latency.
+- **Hash-Based Algorithms:** Implementing algorithms like hash join in database systems.
+
+### Conclusion
+
+Hash tables are efficient data structures that provide fast access to key-value pairs. Understanding hash tables is essential for solving various problems and implementing efficient algorithms in computer science and software development.
