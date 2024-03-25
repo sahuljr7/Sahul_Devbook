@@ -1,14 +1,6 @@
 import { useRouter } from 'next/router'
 
 export default {
-  banner: {
-    key: '2.0-release',
-    text: (
-      <a href="https://nextra.site" target="_blank">
-        🎉 Nextra 2.0 is released. Read more →
-      </a>
-    )
-  },
   chat: {
     link: 'https://twitter.com/sahul_22_jr',
     icon: (
@@ -37,7 +29,7 @@ export default {
     link: 'https://github.com/sahuljr7'
   },
   faviconGlyph: '✦',
-  docsRepositoryBase: 'https://github.com/sahuljr7/Dev-Book/issues',
+  docsRepositoryBase: 'https://github.com/sahuljr7/Sahul_DevBook/issues',
   useNextSeoProps() {
     const { asPath } = useRouter()
     if (asPath !== '/') {

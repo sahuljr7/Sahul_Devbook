@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@napi-rs/simple-git": "^0.1.16",
     "@radix-ui/react-tabs": "^1.0.4",
     "@vercel/og": "^0.6.2",
     "clsx": "^2.1.0",
