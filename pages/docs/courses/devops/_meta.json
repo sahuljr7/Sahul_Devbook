@@ -1,0 +1,17 @@
+{
+    "intro": 
+    {
+        "title": "Introduction to DevOps",
+        "pagination": true,
+        "theme": {
+          "sidebar": false
+      }
+    },
+    "syllabus": {
+        "title": "Syllabus",
+        "pagination": true,
+        "theme": {
+          "sidebar": false
+      }
+   }
+}

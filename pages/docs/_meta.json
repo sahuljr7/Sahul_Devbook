@@ -1,8 +1,8 @@
 {
-  "--Documentation": {
-    "type": "separator",
-    "title": "Documentation"
-  },
-    "index": "Introduction",
-    "guide": ""
+    "--Courses": {
+      "type": "separator",
+      "title": "Courses"
+    },
+    "course_intro": "Introduction to Courses",
+    "courses": "Courses"
   }
