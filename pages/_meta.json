@@ -4,14 +4,6 @@
     "type": "page",
     "display": "hidden"
   },
-  "about": 
-  {
-    "title": "About",
-    "display": "hidden",
-    "theme": {
-      "typesetting": "article"
-    }
-  },
   "sahul": {
     "title": "Sahul Kumar Parida",
     "display": "hidden"
@@ -31,25 +23,22 @@
     }
   },
   "connect": {
-    "title": "Contact↗",
+    "title": "Space↗",
     "type": "page",
     "href": "https://example.com/contact",
     "newWindow": true
   },
-  "---": {
-    "type": "separator"
-  },
-  "company": {
-    "title": "Company",
+  "tools": {
+    "title": "Tools",
     "type": "menu",
     "items": {
-      "about": {
-        "title": "About Company",
-        "href": "/about"
+      "compilers": {
+        "title": "Compilers",
+        "href": "/compilers"
       },
-      "contact": {
-        "title": "Contact Us",
-        "href": "mailto:hi@example.com"
+      "ai": {
+        "title": "AI Tools",
+        "href": "/ai"
       }
     }
   },
@@ -78,8 +67,8 @@
       "layout": "full"
     }
   },
-  "faq": {
-    "title": "FAQ",
+  "research": {
+    "title": "Research",
     "type": "page"
   },
   "dsa": {

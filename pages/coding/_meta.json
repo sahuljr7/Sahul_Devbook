@@ -1,7 +1,7 @@
 {
-    "--Coding": {
-        "type": "separator",
-        "title": "Coding"
-      },
-    "basic": "Basic Usage"
+    "basic": "Code Sandbox",
+    "one": "Java Compiler",
+    "two": "C++ Compiler",
+    "three": "Python Compiler",
+    "four": "Codepen"
 }
