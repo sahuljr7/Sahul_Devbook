@@ -36,11 +36,19 @@
         "title": "Compilers",
         "href": "/compilers"
       },
-      "ai": {
+      "AI": {
         "title": "AI Tools",
-        "href": "/ai"
+        "href": "/AI"
       }
     }
+  },
+  "compilers": {
+    "type": "page",
+    "display": "hidden"
+  },
+  "AI":{
+    "type": "page",
+    "display": "hidden"
   },
   "404": {
     "type": "page",
@@ -55,6 +63,10 @@
       "timestamp": false,
       "typesetting": "article"
     }
+  },
+  "project": {
+    "type": "page",
+    "title": "Projects"
   },
   "docs": {
     "type": "page",

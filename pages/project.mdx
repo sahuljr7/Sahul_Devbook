@@ -1,0 +1,76 @@
+---
+title: Projects
+searchable: true
+---
+
+# My Projects
+
+import { Cards } from 'nextra/components'
+
+<Cards num={2}>
+
+  <Cards.Card
+    image
+    arrow
+    title="Weirdos - NFT Collection Website"
+    href="https://the-weirdos-sahulnotsodev.vercel.app/"
+    target="_blank"
+  >
+    <>![Weirdos - NFT Collection Website](/assets/project1.png)</>
+  </Cards.Card>
+  
+  <Cards.Card 
+  image 
+  arrow 
+  title="tMovies - The Movie Database" 
+  href="https://t-movies-sahuljr7.vercel.app/" 
+  target="_blank"
+  >
+    <>![tMovies - The Movie Database](/assets/project2.png)</>
+    <div class="text-center">
+    <span class="mr-2">[GitHub](https://github.com/sahuljr7/tMovies)</span>
+    </div>
+  </Cards.Card>
+
+</Cards>
+
+
+## FAQs for Web Development and Open Source Projects
+
+export function FAQBox({ title, children }) {
+  return (
+    <details
+      open
+      className="last-of-type:mb-0 rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2 mt-4"
+    >
+      <summary>
+        <strong className="text-lg">{title}</strong>
+      </summary>
+      <div className="nx-p-2">{children}</div>
+    </details>
+  )
+}
+
+<FAQBox title="1. What are some benefits of contributing to open source projects for web developers?">
+  - **Community Collaboration:** Contributing to open source projects allows web developers to collaborate with a diverse community of developers worldwide, gaining valuable insights and feedback.
+  
+- **Skill Enhancement:** By participating in open source projects, developers can improve their coding skills, learn new technologies, and gain practical experience in real-world projects.
+  
+- **Professional Networking:** Engaging in open source projects provides opportunities for web developers to network with industry professionals, establish connections, and enhance their career prospects.
+</FAQBox>
+
+<FAQBox title="2. How can web developers get started with contributing to open source projects?">
+  - **Choose Projects of Interest:** Begin by exploring open source projects that align with your interests, expertise, and technology stack. Look for projects with welcoming communities and well-maintained documentation.
+
+- **Contribute Small Fixes:** Start small by tackling issues labeled as "good first issue" or "beginner-friendly." This allows you to familiarize yourself with the project's codebase and contribution process before taking on more significant tasks.
+
+- **Engage with the Community:** Join the project's communication channels such as mailing lists, forums, or chat platforms. Introduce yourself, ask questions, and seek guidance from experienced contributors to navigate the contribution process effectively.
+</FAQBox>
+
+<FAQBox title="3. How can web developers leverage open source tools and libraries in their projects?">
+  - **Access to High-Quality Software:** Open source tools and libraries offer a vast array of high-quality software solutions that web developers can integrate into their projects, saving time and effort in development.
+
+- **Customization and Flexibility:** Open source software provides the flexibility to customize and extend functionalities according to project requirements. Developers can modify the source code, contribute improvements, or build upon existing projects to create tailored solutions.
+
+- **Cost-Effectiveness:** Leveraging open source tools and libraries often eliminates the need for expensive proprietary software licenses, reducing project costs and promoting accessibility to cutting-edge technologies for developers of all backgrounds.
+</FAQBox>
