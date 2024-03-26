@@ -1,0 +1,93 @@
+---
+title: First Missing Positive
+---
+
+import { Tabs } from 'nextra/components'
+
+# 41. First Missing Positive
+Published on 26th March, 2024
+
+## Question Link
+Leetcode Question Link [https://leetcode.com/problems/first-missing-positive/description/]
+
+## Problem Statement
+Given an unsorted integer array nums. Return the smallest positive integer that is not present in nums.
+
+You must implement an algorithm that runs in O(n) time and uses O(1) auxiliary space.
+
+## Solution
+
+<Tabs items={['Java', 'C++', 'Python']} defaultIndex={1}>
+  <Tabs.Tab>
+    ```java filename="solution.java"
+    class Solution {
+  public int firstMissingPositive(int[] nums) {
+    final int n = nums.length;
+
+    for (int i = 0; i < n; ++i)
+      while (nums[i] > 0 && nums[i] <= n && nums[i] != nums[nums[i] - 1])
+        swap(nums, i, nums[i] - 1);
+
+    for (int i = 0; i < n; ++i)
+      if (nums[i] != i + 1)
+        return i + 1;
+
+    return n + 1;
+
+}
+
+private void swap(int[] nums, int i, int j) {
+final int temp = nums[i];
+nums[i] = nums[j];
+nums[j] = temp;
+}
+}
+```
+
+  </Tabs.Tab>
+
+  <Tabs.Tab>
+    ```cpp filename="solution.cpp"
+    class Solution {
+   public: int firstMissingPositive(vector < int > & nums) {
+     const int n = nums.size();
+
+     for (int i = 0; i < n; ++i)
+       while (nums[i] > 0 && nums[i] <= n && nums[i] != nums[nums[i] - 1])
+         swap(nums[i], nums[nums[i] - 1]);
+
+     for (int i = 0; i < n; ++i)
+       if (nums[i] != i + 1)
+         return i + 1;
+
+     return n + 1;
+
+   }
+ };
+```
+
+  </Tabs.Tab>
+
+  <Tabs.Tab>
+     ```python filename="solution.py"
+    class Solution:
+  def firstMissingPositive(self, nums: List[int]) -> int:
+    n = len(nums)
+
+    # Correct slot:
+    # nums[i] = i + 1
+    # nums[i] - 1 = i
+    # nums[nums[i] - 1] = nums[i]
+    for i in range(n):
+      while nums[i] > 0 and nums[i] <= n and nums[nums[i] - 1] != nums[i]:
+        nums[nums[i] - 1], nums[i] = nums[i], nums[nums[i] - 1]
+
+    for i, num in enumerate(nums):
+      if num != i + 1:
+        return i + 1
+
+    return n + 1
+    ```
+
+  </Tabs.Tab>
+</Tabs>

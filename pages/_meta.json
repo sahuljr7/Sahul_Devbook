@@ -23,7 +23,7 @@
     }
   },
   "connect": {
-    "title": "Space↗",
+    "title": "Articles↗",
     "type": "page",
     "href": "https://example.com/contact",
     "newWindow": true
@@ -47,6 +47,28 @@
     "display": "hidden"
   },
   "AI":{
+    "type": "page",
+    "display": "hidden"
+  },
+  "cp":{
+    "title": "CP",
+    "type": "menu",
+    "items": {
+      "gfg": {
+        "title": "Geeks for Geeks",
+        "href": "/gfg"
+      },
+      "leetcode": {
+        "title": "Leetcode",
+        "href": "/leetcode"
+      }
+    }
+  },
+  "gfg": {
+    "type": "page",
+    "display": "hidden"
+  },
+  "leetcode": {
     "type": "page",
     "display": "hidden"
   },

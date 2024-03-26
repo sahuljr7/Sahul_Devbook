@@ -1,0 +1,82 @@
+---
+title: Additive sequence
+---
+
+import { Tabs } from 'nextra/components'
+
+# Additive sequence
+Published on 26th March, 2024
+
+## Question Link
+GFG Question Link [https://www.geeksforgeeks.org/problems/additive-sequence/1]
+
+## Problem Statement
+Given a string n, your task is to find whether it contains an additive sequence or not. A string n contains an additive sequence if its digits can make a sequence of numbers in which every number is the addition of the previous two numbers. You are required to complete the function which returns true if the string is a valid sequence else returns false. For better understanding check the examples.
+
+Note: A valid string should contain at least three digits to make one additive sequence. 
+
+## Solution
+```cpp filename="solution.cpp"
+class Solution {
+  public:
+    int getNumber(string &s, int i, int j){
+        int ans=0;
+        for(int k=i;k<j;k++){
+            ans=ans*10+(s[k]-'0');
+        }
+        return ans;
+    }
+    bool isAdditiveSequence(string s) {
+        // Your code here
+        int n=s.length();
+        int a,b,c,count;
+        for(int i=2;i<n;i++){
+            for(int j=1;j<i;j++){
+                // calculate the first 2 elements
+                a=getNumber(s,0,j);
+                b=getNumber(s,j,i);
+                int k=i;
+                count=0;
+                c=0;
+                
+                // loop for calculating the 3rd element and so on
+                while(k<n && c<a+b){
+                    c=c*10+(s[k]-'0');
+                    if(c==a+b){
+                        count++;
+                        a=b;
+                        b=c;
+                        c=0;
+                    }
+                    k++;
+                }
+                // check if we have at least 1 sequence and there should be no digits remaining 
+                if(count>0 && k==n && c==0){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+};
+```
+
+<Tabs items={['Java', 'C++', 'Python']} defaultIndex={1}>
+  <Tabs.Tab>
+    ```java filename="hi.java"
+    import java.util.*;
+    ```
+  </Tabs.Tab>
+
+  <Tabs.Tab>
+    ```cpp filename="hi.cpp"
+    #include <iostream>
+    ```
+  </Tabs.Tab>
+
+  <Tabs.Tab>
+     ```python filename="hello.py"
+    print('Hello, world!')
+    ```
+  </Tabs.Tab>
+</Tabs>

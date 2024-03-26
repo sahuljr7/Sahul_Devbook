@@ -2,14 +2,12 @@
     "intro": 
     {
         "title": "Introduction to DevOps",
-        "pagination": true,
         "theme": {
           "sidebar": false
       }
     },
     "syllabus": {
-        "title": "Syllabus",
-        "pagination": true,
+        "title": "Syllabus for DevOps",
         "theme": {
           "sidebar": false
       }
