@@ -12,6 +12,14 @@
     "title": "Roadmap",
     "type": "page"
   },
+  "things": {
+    "title": "Things",
+    "type": "page"
+  },
+  "interview": {
+    "title": "Interview",
+    "type": "page"
+  },
   "blog": {
     "type": "page",
     "title": "Blog",
@@ -108,5 +116,9 @@
   "dsa": {
     "type": "page",
     "title": "DSA"
+  },
+  "java": {
+    "type": "page",
+    "title": "Java"
   }
 }
