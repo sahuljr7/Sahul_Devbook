@@ -3,8 +3,6 @@
 Welcome to my Devbook: Learning Hub, a self-coded website dedicated to helping you in your learning journey! This project was built entirely from scratch to provide a customizable and user-friendly platform for accessing educational resources and organizing your learning materials.
 
 ## Features
-
-- **Customizable Dashboard**: Tailor your dashboard to suit your learning needs. Add widgets, rearrange modules, and personalize your learning environment.
   
 - **Resource Library**: Access a vast library of educational materials, including articles, videos, tutorials, and more. Organize resources into categories and easily search for specific topics.
 
