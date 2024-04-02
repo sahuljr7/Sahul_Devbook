@@ -1,0 +1,22 @@
+{
+    "index": "Syllabus",
+    "--Module 1": {
+        "type": "separator",
+        "title": "Module 1"
+      },
+      "module_1": "Introduction to Space Science",
+      "module_11": "Overview of Space Science",
+      "module_12": "Importance of Space Exploration",
+      "module_13": "Historical Perspective of Space Exploration",
+      "module_14": "Major Milestones",
+      "module_15": "Key Figures",
+      "--Module 2": {
+        "type": "separator",
+        "title": "Module 2"
+      },
+      "module_2": "Basics of Astronomy",
+      "module_21": "Understanding the Celestial Sphere",
+      "module_22": "Observational Astronomy",
+      "module_23": "Telescopes and Observatories",
+      "module_24": "Constellations"
+}
