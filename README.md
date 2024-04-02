@@ -16,11 +16,9 @@ To get started with Learning Hub, follow these steps:
 
 2. **Install Dependencies**: Navigate to the project directory and install the necessary dependencies by running `npm install`.
 
-3. **Configure Environment Variables**: Set up any required environment variables. Refer to the `.env.example` file for guidance.
+3. **Run the Application**: Start the development server by running `npm start`. The website should now be accessible at `http://localhost:3000`.
 
-4. **Run the Application**: Start the development server by running `npm start`. The website should now be accessible at `http://localhost:3000`.
-
-5. **Customize and Deploy**: Customize the website according to your preferences. Add your own educational resources, tweak the design, and tailor it to your audience. Once ready, deploy the website to your preferred hosting platform.
+4. **Customize and Deploy**: Customize the website according to your preferences. Add your own educational resources, tweak the design, and tailor it to your audience. Once ready, deploy the website to your preferred hosting platform.
 
 ## Contributing
 
@@ -28,7 +26,7 @@ We welcome contributions from the community to enhance Learning Hub and make it 
 
 ## Support
 
-If you encounter any issues or have questions about using Learning Hub, feel free to reach out to us. You can contact us via email at support@learninghub.com or open a new issue in the repository.
+If you encounter any issues or have questions about using Learning Hub, feel free to reach out to us. You can contact us via email at sahulkumarparida@gmail.com or open a new issue in the repository.
 
 ## License
 
