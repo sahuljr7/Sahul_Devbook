@@ -12,6 +12,10 @@
     "title": "Roadmap",
     "type": "page"
   },
+  "sql": {
+    "title": "SQL",
+    "type": "page"
+  },
   "aries": {
     "title": "Aries",
     "type": "page"
